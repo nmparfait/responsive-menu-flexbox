@@ -16,3 +16,24 @@ li a {
     text-decoration: none;
     background-color: #202c59;
 }
+
+li a:hover {
+    opacity: 0.7; 
+}
+
+@media screen and (min-width:576px) {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        border-top: 4px solid #F0a202;
+    }
+    
+    li {
+        flex: 1 0 auto;  
+    }
+    
+    .first {
+        background-color: #F0a202;
+        color: #202C59;
+    }
+}
